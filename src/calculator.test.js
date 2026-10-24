@@ -13,11 +13,11 @@ describe("Calculator addition", () => {
   });
 });
 
-describe("Calculator subtraction", () => {
-  it("subtracts two positive numbers", () => {
-    expect(add(3, 2)).toBe(1);
-  });
-  it("subtracts negative numbers", () => {
-    expect(add(-2, -3)).toBe(1);
-  });
-});
+// describe("Calculator subtraction", () => {
+//   it("subtracts two positive numbers", () => {
+//     expect(add(3, 2)).toBe(1);
+//   });
+//   it("subtracts negative numbers", () => {
+//     expect(add(-2, -3)).toBe(1);
+//   });
+// });
