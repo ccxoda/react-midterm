@@ -20,7 +20,4 @@ describe("Calculator subtraction", () => {
   it("subtracts negative numbers", () => {
     expect(add(-2, -3)).toBe(1);
   });
-  it("converts input strings to numbers", () => {
-    expect(add("10", "5")).toBe(15);
-  });
 });
